@@ -1,3 +1,4 @@
+# testing auto deploy
 FROM continuumio/miniconda3
 WORKDIR /app
 RUN ["conda", "create", "-y", "-n", "project"]
